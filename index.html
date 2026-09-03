@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="font-family: Arial; background-color: #f2f2f2;">
+    <h1><center>Registration Form</h1>
+    <form style="width: 400px; margin: 50px auto; padding: 25px; background-color: lightskyblue; border: 1px solid #ccc; border-radius: 10px;">
+    <div class="input-box">
+        <label><b>Name</b></label>
+        <input type="text" id="name" placeholder="Enter Name" style="width: 95%; padding: 8px; margin: 8px 0 15px;">
+    </div>
+    <br>
+
+    <div class="input-box">
+        <label><b>Email</b></label>
+        <input type="email" id="email" placeholder="Enter Email" style="width: 95%; padding: 8px; margin: 8px 0 15px;">
+    </div>
+    <br>
+
+    <div class="input-box">
+        <label><b>Password</b></label>
+        <input type="password" id="password" placeholder="Enter Password" style="width: 95%; padding: 8px; margin: px 0 15px;">
+    </div>
+    <br>
+
+    <label><b>Gender</b></label>
+    <input type="radio" value="Male" name="Gender">Male
+    <input type="radio" value="Female" name="Gender">Female
+    <input type="radio" value="Other" name="Gender">Other<br>
+    <br>
+
+    <label><b>Department:</b></label>
+        <select name="department"
+                style="width: 100%; padding: 8px; margin: 8px 0 15px;">
+            <option value="">-- Select Department --</option>
+            <option value="cse">Computer Science Engineering</option>
+            <option value="ece">Electronics & Communication Engineering</option>
+            <option value="ee">Electrical Engineering</option>
+            <option value="me">Mechanical Engineering</option>
+            <option value="ce">Civil Engineering</option>
+        </select>
+        <br>
+    
+    <input type="checkbox" name="terms">
+    <label>I agree to the Terms and Conditions</label>
+</body>
+</html>
